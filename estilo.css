@@ -1,0 +1,179 @@
+/* ---------------------------------------------
+   🌿 CALENDARIO SOCIOEMOCIONAL - ESTILOS BASE
+   ---------------------------------------------
+   Autor: Víctor Iván Lara Padua
+   Proyecto escolar: "Calendario Socioemocional"
+   --------------------------------------------- */
+
+/* 🔤 Estilo general del sitio */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 🔝 Encabezados y textos principales */
+h1 {
+    font-size: 2.3em;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+p {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+/* 📅 Calendario en la página principal */
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 📆 Estilo de cada mes (botón o caja de enlace) */
+.mes {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.mes:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.05);
+}
+
+/* 🦶 Pie de página */
+footer {
+    margin-top: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 12px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* 📱 Adaptación para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .mes {
+        padding: 15px;
+    }
+}
+
+/* 🌈 Fondos personalizados por mes
+   Cambia las imágenes según tu carpeta img/
+   (coloca las imágenes dentro de /img con esos nombres) */
+
+/* Página de inicio */
+body.inicio {
+    background-image: url('../img/fondo_inicio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- ENERO ----- */
+body.enero {
+    background-image: url('../img/fondo_enero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- FEBRERO ----- */
+body.febrero {
+    background-image: url('../img/fondo_febrero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- MARZO ----- */
+body.marzo {
+    background-image: url('../img/fondo_marzo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- ABRIL ----- */
+body.abril {
+    background-image: url('../img/fondo_abril.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- MAYO ----- */
+body.mayo {
+    background-image: url('../img/fondo_mayo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- JUNIO ----- */
+body.junio {
+    background-image: url('../img/fondo_junio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- JULIO ----- */
+body.julio {
+    background-image: url('../img/fondo_julio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- AGOSTO ----- */
+body.agosto {
+    background-image: url('../img/fondo_agosto.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- SEPTIEMBRE ----- */
+body.septiembre {
+    background-image: url('../img/fondo_septiembre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- OCTUBRE ----- */
+body.octubre {
+    background-image: url('../img/fondo_octubre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- NOVIEMBRE ----- */
+body.noviembre {
+    background-image: url('../img/fondo_noviembre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- DICIEMBRE ----- */
+body.diciembre {
+    background-image: url('../img/fondo_diciembre.jpg');
+    background-size: cover;
+    background-position: center;
+}
